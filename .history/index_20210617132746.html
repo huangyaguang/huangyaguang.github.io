@@ -2,7 +2,7 @@
  * @Author: Guo Du Hao
  * @Date: 2021-06-17 13:25:35
  * @LastEditors: Guo Du Hao
- * @LastEditTime: 2021-06-17 13:30:05
+ * @LastEditTime: 2021-06-17 13:27:46
  * @Description: File content
 -->
 <!DOCTYPE HTML>
@@ -25,7 +25,7 @@
 <body>
 	<div id="mainDiv">
 		<div id="content">
-			<!-- <div id="code">
+			<div id="code">
 				<span class="comments">/**</span><br />
 				<span class="space"/><span class="comments">* We are all programmers struggling in Shanghai,</span><br />
 				<span class="space"/><span class="comments">* So I wrote some code to celebrate our meeting.</span><br />
@@ -52,17 +52,17 @@
 				<span class="comments">// After a romantic wedding, we will live happily ever after.</span><br />
 				i.marry(u);<br />
 				i.liveHappilyWith(u);<br />
-			</div> -->
+			</div>
 			<div id="loveHeart">
 				<canvas id="garden"></canvas>
 				<div id="words">
 					<div id="messages">
-						欣欣, I have fallen in love with you for
+						Xinxin, I have fallen in love with you for
 						<div id="elapseClock"></div>
 					</div>
 					<div id="loveu">
 						Love u forever and ever.<br/>
-						<div class="signature">- Your 老黄</div>
+						<div class="signature">- Your laoguang</div>
 					</div>
 				</div>
 			</div>
@@ -72,7 +72,7 @@
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(2020, 7, 14);
+		together.setFullYear(2020, 5, 25);
 		together.setHours(14);
 		together.setMinutes(0);
 		together.setSeconds(0);
@@ -91,7 +91,7 @@
 		} else {
 			setTimeout(function () {
 				startHeartAnimation();
-			}, 500);
+			}, 5000);
 
 			timeElapse(together);
 			setInterval(function () {
